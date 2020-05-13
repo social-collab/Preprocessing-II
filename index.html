@@ -68,21 +68,32 @@
     </section>
     <section class="content-pick">
 
+      <!-- Created a simple form to use the existing sign up buttons. Of course, form won't work
+      without database access -->
+      <form method="POST" action="" name="choosePackage">
+
+        <input type="text" name="fullName" placeholder="Full Name" />
+        <input type="email" name="email" placeholder="Email" />
+        <input type="tel" name="phone" placeholder="Phone" />
+        <textarea name="instructions" placeholder="Do you have any Special Instructions?"></textarea>
+
       <div class="destination">
         <h4>Fun In The Sun</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <input type="submit" class="btn" name="package1" value="Sign me up" />
       </div>
       <div class="destination">
         <h4>Mountain Excursion</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <input type="submit" class="btn" name="package2" value="Sign me up" />
       </div>
       <div class="destination">
         <h4>Island Getaway</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
-        <div class="btn">Sign Me Up!</div>
+        <input type="submit" class="btn" name="package3" value="Sign me up" />
       </div>
+
+      </form>
     </section>
   </div><!-- container -->
 

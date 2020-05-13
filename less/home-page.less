@@ -73,11 +73,41 @@
     }
   }
 
-  .content-pick {
+  input { 
+    width:32%;
+    display:flex;
+    flex-direction:row;
+    padding:12px;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+
+    @media@phone {
+      width:100%;
+      flex-direction:column;
+      margin:6px 0;
+    }
+  }
+
+  textarea {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    padding:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:18px 0;
+
+    @media@phone {
+      margin:6px 0;
+    }
+  }
+
+  form {
     padding-top: 30px;
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    flex-wrap:wrap;
 
     .destination {
       width: 30%;
