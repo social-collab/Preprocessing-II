@@ -356,4 +356,5 @@ hr.header-horizontal {
   font-weight: bold;
   opacity: 0.6;
   transition: 2s;
+  cursor: pointer;
 }
